@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adaptive_picard_chebyshev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c_functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chebyshev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clenshaw_curtis_ivpII.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ecef2eci.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eci2ecef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EGM2008.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FandG.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interpolate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lsq_chebyshev_fit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_builder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_loader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="perigee_approx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="perturbed_gravity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="picard_chebyshev_propagator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="picard_error_feedback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="picard_iteration.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="polydegree_segments.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prepare_propagator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="radial_gravity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reosc_perigee.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rv2elm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EGM2008.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adaptive_picard_chebyshev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="c_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chebyshev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clenshaw_curtis_ivpII.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ecef2eci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eci2ecef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EGM2008.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FandG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interpolate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lsq_chebyshev_fit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perigee_approx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perturbed_gravity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="picard_chebyshev_propagator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="picard_error_feedback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="picard_iteration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="polydegree_segments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prepare_propagator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="radial_gravity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reosc_perigee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rv2elm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\adaptive_picard_chebyshev_C-master\adaptive_picard_chebyshev_v4\matrices\P1_matrices.bin">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\adaptive_picard_chebyshev_C-master\adaptive_picard_chebyshev_v4\matrices\P2_matrices.bin">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\adaptive_picard_chebyshev_C-master\adaptive_picard_chebyshev_v4\src\matrix_builder">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\adaptive_picard_chebyshev_C-master\adaptive_picard_chebyshev_v4\src\makefile">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\adaptive_picard_chebyshev_C-master\adaptive_picard_chebyshev_v4\matrices\A_matrices.bin">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\adaptive_picard_chebyshev_C-master\adaptive_picard_chebyshev_v4\matrices\T1_matrices.bin">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\adaptive_picard_chebyshev_C-master\adaptive_picard_chebyshev_v4\matrices\T2_matrices.bin">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\adaptive_picard_chebyshev_C-master\adaptive_picard_chebyshev_v4\matrices\Ta_matrices.bin">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
